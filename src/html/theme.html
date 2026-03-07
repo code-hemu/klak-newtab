@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="settings.css">
+    <link rel="stylesheet" href="default.css">
+    <link rel="stylesheet" class="style" href="#">
+    <link rel="icon" sizes="any" type="image/svg+xml" href="../icons/64.png">
+    <title data-message="app_name">Klak</title>
+</head>
+<body>
+    <div class="container">
+        <div class="template"></div>
+        <div class="settings" id="settings">
+            <div class="closed" id="closedSettings">
+            </div>
+            <div class="opened">
+                <div class="theme-box">
+                    <div class="caption">Klak</div>
+                    <div class="themes"></div>
+                    <div class="time-check">
+                        <div class="line"></div>
+                        <div class="input">
+                            <div class="checkbox">
+                                <div class="checked"></div>
+                            </div> 
+                            <span class="text" data-message="hours"></span>
+                        </div>
+                        <div class="line"></div>
+                        <div class="fullscreen">
+                            <img src="../icons/fullscreen.svg"/>
+                            <span class="text" data-message="fullscreen">fullscreen</span>
+                        </div>
+                    </div>                    
+                    <div class="names">
+                        <div class="line"></div>
+                        <div class="links">
+                            <span><a href="#" id="codehemu">@codehemu</a></span>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+            <div class="tooltip" data-message="new_time"></div>
+        </div>
+    </div>
+    <script src="theme.js"></script>
+</body>
+</html>

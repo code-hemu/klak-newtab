@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'begging';
+  src: url(../fonts/Klak-Begging.woff2) format('truetype');
+}
+
+.container {
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+}
+
+.layers .layer:nth-child(1) {
+    width: 580px;
+    height: 580px;
+    background: #B8AFEF;
+    border-radius: 50% 35% 40% 37%;
+    border: 10px solid #ffffff;
+    animation: spin 10s linear infinite;
+}
+
+.layers .layer:nth-child(2) {
+    width: 485px;
+    height: 485px;
+    background:#e75338;
+    border-radius: 40% 35% 50% 30%;
+    border: 10px solid #ffffff;
+    animation: spin 5s linear infinite;
+}
+
+.layers .layer:nth-child(3) {
+    width: 425px;
+    height: 425px;
+    border-radius: 50%;
+    border: 10px solid #ffffff;
+    background: #bac4e7;
+    box-shadow: 0px 0px 50px #F2CE92;
+}
+
+.time {
+    font-size: 90px;
+    font-family: "begging", cursive;
+    color: #ffffff;
+}
+
+@import url("stars-1x.css");
+@import url("stars-2x.css");
+@import url("stars-3x.css");

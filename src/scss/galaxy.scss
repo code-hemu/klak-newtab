@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'galaxy';
+  src: url(../fonts/Klak-Galaxy.woff2) format('truetype');
+}
+
+:root {
+  --firefly-color: #BCBCBC;
+}
+
+.container {
+    background: #120D31;
+}
+
+.layers .layer:nth-child(1) {
+    width: 465px;
+    height: 465px;
+    border-radius: 50% 35% 40% 37%;
+    background: linear-gradient(270deg, #EAC485 0%, #FFFFFF 100%);
+    box-shadow: 0px 0px 50px #F2CE92;
+    animation: spin 10s linear infinite;
+}
+
+.layers .layer:nth-child(2) {
+    width: 465px;
+    height: 465px;
+    background: blue;
+    border-radius: 40% 35% 50% 30%;
+    animation: spin 5s linear infinite;
+}
+
+.layers .layer:nth-child(3) {
+    width: 465px;
+    height: 465px;
+    border-radius: 50%;
+    background: black;
+    box-shadow: 0px 0px 50px #F2CE92;
+}
+
+.time {
+    font-size: 130px;
+    font-family: 'galaxy', cursive;
+    color: #f0f6f9;
+}
+
+@import url("firefly.css");
+
+.fireflys {
+    animation: spin 120s linear infinite;
+}

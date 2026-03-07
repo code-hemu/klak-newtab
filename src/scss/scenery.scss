@@ -1,0 +1,106 @@
+@font-face {
+  font-family: 'scenery';
+  src: url(../fonts/klak-Scenery.woff2) format('truetype');
+}
+
+:root {
+  --star-color: #ffb058;
+}
+
+@import url("shooting.css");
+
+.container {
+    background: linear-gradient(to bottom, #e74d5c 0%, #f3774d 100%);
+}
+
+.layers .layer{
+    border-radius: 50%;
+    transform: translate(-50%, -55%);
+}
+
+.layers .layer:nth-child(1) {
+    width: 820px;
+    height: 820px;
+    background-color: rgba(255, 176, 88, 0.1);
+}
+
+.layers .layer:nth-child(2) {
+    width: 740px;
+    height: 740px;
+    background-color: rgba(255, 176, 88, 0.2);
+}
+
+.layers .layer:nth-child(3) {
+    width: 660px;
+    height: 660px;
+    background-color: rgba(255, 176, 88, 0.2);
+}
+
+.layers .layer:nth-child(4) {
+    width: 580px;
+    height: 580px;
+    background-color: rgba(255, 176, 88, 0.3);
+}
+
+.layers .layer:nth-child(5) {
+    width: 500px;
+    height: 500px;
+    background-color: #ffb058;
+}
+
+.time {
+    font-size: 100px;
+    font-family: "scenery", cursive;
+    color: #f0f6f9;
+    transform: translate(-50%, -80%);
+}
+
+.waves .wave{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    transform: none;
+    background: 0 0/contain repeat-x;
+    transition: background-position 0.3s ease-in-out;
+    animation-name: waves-move;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.waves .wave:nth-child(1){
+    height: 356px;
+    background-image: url("../icons/waves-1.svg");
+    background-position-y: 160px;
+    animation-duration: 30s;
+}
+
+.waves .wave:nth-child(2){
+    height: 292px;
+    background-image: url("../icons/waves-2.svg");
+    background-position-y: 130px;
+    animation-duration: 25s;
+}
+
+.waves .wave:nth-child(3){
+    height: 245px;
+    background-image: url("../icons/waves-3.svg");
+    background-position-y: 100px;
+    animation-duration: 18s;
+}
+
+.waves .wave:nth-child(4){
+    height: 153px;
+    background-image: url("../icons/waves-4.svg");
+    background-position-y: 70px;
+    animation-duration: 9s;
+}
+
+.waves .wave:nth-child(5){
+    height: 125px;
+    background-image: url("../icons/waves-5.svg");
+    background-position-y: 40px;
+    animation-duration: 5s;
+}
+
+@keyframes waves-move {to {background-position-x: -690px;}}

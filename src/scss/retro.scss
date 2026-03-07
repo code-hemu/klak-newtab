@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'retro';
+  src: url(../fonts/Klak-retro.woff2) format('truetype');
+}
+
+.container {
+    z-index: 999;
+    background: linear-gradient(180deg, rgba(10, 0, 84, 0.8) 0%, rgba(38, 0, 99, 0.8) 33.33%, rgba(115, 1, 141, 0.8) 69.27%, rgba(209, 25, 211, 0.8) 100%), #000000;
+}
+
+.layers .layer:nth-child(1) {
+    width: 565px;
+    height: 565px;
+    background: black;
+    opacity: 0.1;
+    z-index: 8;
+    border-radius: 50% 35% 40% 37%;
+    animation: spin 10s linear infinite;
+}
+
+.layers .layer:nth-child(2) {
+    width: 565px;
+    height: 565px;
+    background: black;
+    opacity: 0.1;
+    z-index: 16;
+    border-radius: 40% 35% 50% 30%;
+    animation: spin 5s linear infinite;
+}
+
+.layers .layer:nth-child(3) {
+    width: 465px;
+    height: 465px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #FFEF00 0%, #FE3851 50.52%, #E425EF 100%);
+    box-shadow: 0px 0px 50px rgba(253, 208, 230, 0.5);
+}
+
+.time {
+    font-size: 100px;
+    font-family: "retro", cursive;
+    color: #FFFFFF;
+}
+
+@import url("stars-1x.css");
+@import url("stars-2x.css");
+@import url("stars-3x.css");

@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'tea';
+  src: url(../fonts/Klak-Tea.woff2) format('truetype');
+}
+
+body {
+    background: radial-gradient(25% 25% at 50% 25%, #F4EBE7 0%, #E4CFB7 0.01%, #F2EBE7 100%);
+}
+
+.layers .layer:nth-child(1) {
+    width: 580px;
+    height: 580px;
+    background: #B8AFEF;
+    border-radius: 50% 35% 40% 37%;
+    border: 10px solid #4B4B4B;
+    animation: spin 10s linear infinite;
+}
+
+.layers .layer:nth-child(2) {
+    width: 485px;
+    height: 485px;
+    background:#F0A66F;
+    border-radius: 40% 35% 50% 30%;
+    border: 10px solid #4B4B4B;
+    animation: spin 5s linear infinite;
+}
+
+.layers .layer:nth-child(3) {
+    width: 425px;
+    height: 425px;
+    border-radius: 50%;
+    background: #99F1BA;
+    box-shadow: 0px 0px 50px #F2CE92;
+    border: 10px solid #4B4B4B;
+}
+
+.time {
+    font-size: 130px;
+    font-family: "tea", cursive;
+    color: #4B4B4B;
+}

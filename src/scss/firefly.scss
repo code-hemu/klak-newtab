@@ -1,0 +1,312 @@
+.fireflys .firefly {
+    position: absolute;
+}
+
+.fireflys .firefly:nth-child(1) {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background: var(--firefly-color);
+  left: 332px;
+  bottom: -25px;
+  z-index: -3;
+  margin: 30px;
+  animation: starsOpacity 7.9s infinite;
+}
+
+.fireflys .firefly:nth-child(2) {
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background: var(--firefly-color);
+  left: -213px;
+  bottom: 116px;
+  z-index: -3;
+  margin: 30px;
+  animation: starsOpacity 15.8s infinite;
+}
+
+.fireflys .firefly:nth-child(3) {
+  width: 6px;
+  height: 6px;
+  border-radius: 100%;
+  background: var(--firefly-color);
+  left: -415px;
+  bottom: -103px;
+  z-index: -3;
+  margin: 30px;
+  animation: starsOpacity 23.7s infinite;
+}
+
+.fireflys .firefly:nth-child(4) {
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background: var(--firefly-color);
+  left: -165px;
+  bottom: -23px;
+  z-index: -3;
+  margin: 30px;
+  animation: starsOpacity 31.6s infinite;
+}
+
+.fireflys .firefly:nth-child(5) {
+  width: 6px;
+  height: 6px;
+  border-radius: 100%;
+  background: var(--firefly-color);
+  left: 405px;
+  bottom: -36px;
+  z-index: -3;
+  margin: 30px;
+  animation: starsOpacity 39.5s infinite;
+}
+
+.fireflys .firefly:nth-child(6) {
+  width: 3px;
+  height: 3px;
+  border-radius: 100%;
+  background: var(--firefly-color);
+  left: -19px;
+  bottom: 62px;
+  z-index: -3;
+  margin: 30px;
+  animation: starsOpacity 47.4s infinite;
+}
+
+.fireflys .firefly:nth-child(7) {
+  width: 6px;
+  height: 6px;
+  border-radius: 100%;
+  background: var(--firefly-color);
+  left: -306px;
+  bottom: 24px;
+  z-index: -3;
+  margin: 30px;
+  animation: starsOpacity 55.3s infinite;
+}
+
+.fireflys .firefly:nth-child(8) {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background: var(--firefly-color);
+  left: 328px;
+  bottom: 252px;
+  z-index: -3;
+  margin: 30px;
+  animation: starsOpacity 63.2s infinite;
+}
+
+.fireflys .firefly:nth-child(9) {
+  width: 6px;
+  height: 6px;
+  border-radius: 100%;
+  background: var(--firefly-color);
+  left: -347px;
+  bottom: 678px;
+  z-index: -3;
+  margin: 30px;
+  animation: starsOpacity 71.1s infinite;
+}
+
+.fireflys .firefly:nth-child(10) {
+  width: 5px;
+  height: 5px;
+  border-radius: 100%;
+  background: var(--firefly-color);
+  left: 62px;
+  bottom: -297px;
+  z-index: -3;
+  margin: 30px;
+  animation: starsOpacity 79s infinite;
+}
+
+.fireflys .firefly:nth-child(11) {
+  width: 9px;
+  height: 9px;
+  border-radius: 100%;
+  background: var(--firefly-color);
+  left: -180px;
+  bottom: -42px;
+  z-index: -3;
+  margin: 30px;
+  animation: starsOpacity 86.9s infinite;
+}
+
+.fireflys .firefly:nth-child(12) {
+  width: 3px;
+  height: 3px;
+  border-radius: 100%;
+  background: var(--firefly-color);
+  left: -8px;
+  bottom: -32px;
+  z-index: -3;
+  margin: 30px;
+  animation: starsOpacity 94.8s infinite;
+}
+
+.fireflys .firefly:nth-child(13) {
+  width: 6px;
+  height: 6px;
+  border-radius: 100%;
+  background: var(--firefly-color);
+  left: 29px;
+  bottom: -96px;
+  z-index: -3;
+  margin: 30px;
+  animation: starsOpacity 102.7s infinite;
+}
+
+.fireflys .firefly:nth-child(14) {
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background: var(--firefly-color);
+  left: 81px;
+  bottom: -132px;
+  z-index: -3;
+  margin: 30px;
+  animation: starsOpacity 110.6s infinite;
+}
+
+.fireflys .firefly:nth-child(15) {
+  width: 3px;
+  height: 3px;
+  border-radius: 100%;
+  background: var(--firefly-color);
+  left: 324px;
+  bottom: 637px;
+  z-index: -3;
+  margin: 30px;
+  animation: starsOpacity 118.5s infinite;
+}
+
+.fireflys .firefly:nth-child(16) {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background: var(--firefly-color);
+  left: -199px;
+  bottom: 240px;
+  z-index: -3;
+  margin: 30px;
+  animation: starsOpacity 126.4s infinite;
+}
+
+.fireflys .firefly:nth-child(17) {
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background: var(--firefly-color);
+  left: 167px;
+  bottom: 493px;
+  z-index: -3;
+  margin: 30px;
+  animation: starsOpacity 134.3s infinite;
+}
+
+.fireflys .firefly:nth-child(18) {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background: var(--firefly-color);
+  left: 486px;
+  bottom: -262px;
+  z-index: -3;
+  margin: 30px;
+  animation: starsOpacity 142.2s infinite;
+}
+
+.fireflys .firefly:nth-child(19) {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background: var(--firefly-color);
+  left: 10px;
+  bottom: 275px;
+  z-index: -3;
+  margin: 30px;
+  animation: starsOpacity 150.1s infinite;
+}
+
+.fireflys .firefly:nth-child(20) {
+  width: 4px;
+  height: 4px;
+  border-radius: 100%;
+  background: var(--firefly-color);
+  left: -320px;
+  bottom: 492px;
+  z-index: -3;
+  margin: 30px;
+  animation: starsOpacity 158s infinite;
+}
+
+.fireflys .firefly:nth-child(21) {
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background: var(--firefly-color);
+  left: 305px;
+  bottom: 332px;
+  z-index: -3;
+  margin: 30px;
+  animation: starsOpacity 165.9s infinite;
+}
+
+.fireflys .firefly:nth-child(22) {
+  width: 5px;
+  height: 5px;
+  border-radius: 100%;
+  background: var(--firefly-color);
+  left: 1px;
+  bottom: -20px;
+  z-index: -3;
+  margin: 30px;
+  animation: starsOpacity 173.8s infinite;
+}
+
+.fireflys .firefly:nth-child(23) {
+  width: 5px;
+  height: 5px;
+  border-radius: 100%;
+  background: var(--firefly-color);
+  left: 465px;
+  bottom: -70px;
+  z-index: -3;
+  margin: 30px;
+  animation: starsOpacity 181.7s infinite;
+}
+
+.fireflys .firefly:nth-child(24) {
+  width: 6px;
+  height: 6px;
+  border-radius: 100%;
+  background: var(--firefly-color);
+  left: 127px;
+  bottom: 276px;
+  z-index: -3;
+  margin: 30px;
+  animation: starsOpacity 189.6s infinite;
+}
+
+.fireflys .firefly:nth-child(25) {
+  width: 3px;
+  height: 3px;
+  border-radius: 100%;
+  background: var(--firefly-color);
+  left: -393px;
+  bottom: 570px;
+  z-index: -3;
+  margin: 30px;
+  animation: starsOpacity 197.5s infinite;
+}
+
+@keyframes starsOpacity {
+    0% {
+        opacity: 1;
+    } 
+    50% {
+        opacity: 0;
+    }
+}

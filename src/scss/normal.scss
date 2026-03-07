@@ -1,0 +1,32 @@
+.container {
+  background: #444444;
+}
+
+.layers .layer:nth-child(1) {
+    width: 465px;
+    height: 465px;
+    background: #03a9f4;
+    border-radius: 50% 35% 40% 37%;
+    animation: spin 10s linear infinite;
+}
+
+.layers .layer:nth-child(2) {
+    width: 465px;
+    height: 465px;
+    background: #03a9f4;
+    border-radius: 40% 35% 50% 30%;
+    animation: spin 5s linear infinite;
+}
+
+.layers .layer:nth-child(3) {
+    width: 465px;
+    height: 465px;
+    border-radius: 50%;
+    background: #03a9f4;
+}
+
+.time {
+    font-size: 130px;
+    font-family: cursive, sans-serif;
+    color: #f0f6f9;
+}

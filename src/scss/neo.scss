@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'neo';
+  src: url(../fonts/Klak-Neo.woff2) format('truetype');
+}
+
+.container {
+    background: #EBECF0;
+}
+
+.layers .layer:nth-child(1) {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.4) 0%, rgba(255, 255, 255, 0.4) 100%), #EBECF0;
+    background-blend-mode: soft-light, normal;
+    box-shadow: 30px 30px 60px #A6ABBD, -30px -30px 60px #FAFBFF;
+}
+
+.time {
+    font-size: 100px;
+    font-family: 'neo', cursive;
+    color: #8B90A3;
+}

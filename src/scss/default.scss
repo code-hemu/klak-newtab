@@ -1,0 +1,50 @@
+* {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container  {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  height: 100vh;
+  font-family: sans-serif; 
+}
+
+.fireflys, .layer, .time {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+.time {
+    text-align: center;
+}
+
+@keyframes spin {
+    0% {
+        transform: translate(-50%,-50%)rotate(0deg);
+    }100% {
+        transform: translate(-50%,-50%)rotate(360deg);
+    }
+}
+
+@keyframes animStar {
+    from {
+        transform: translateY(0px);
+    }to {
+        transform: translateY(-2000px);
+    }
+}

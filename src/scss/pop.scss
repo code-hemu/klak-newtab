@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'pop';
+  src: url(../fonts/Klak-pop.woff2) format('truetype');
+}
+
+.container {
+    background: #131313;
+}
+
+.layers .layer:nth-child(1) {
+    width: 585px;
+    height: 585px;
+    background: #277355;
+    box-shadow: 8px 8px 0px #231f20, inset 4px 4px 0px #231f20;
+    border-radius: 50% 35% 40% 37%;
+    animation: spin 10s linear infinite;
+}
+
+.layers .layer:nth-child(2) {
+    width: 485px;
+    height: 485px;
+    background: #F9A22C;
+    box-shadow: 8px 8px 0px #231f20, inset 4px 4px 0px #231f20;
+    border-radius: 40% 35% 50% 30%;
+    animation: spin 5s linear infinite;
+}
+
+.layers .layer:nth-child(3) {
+    width: 465px;
+    height: 465px;
+    border-radius: 50%;
+    background: #E74325;
+    box-shadow: 8px 8px 0px #231f20, inset 4px 4px 0px #231f20;
+}
+
+.time {
+    font-size: 80px;
+    font-family: "pop", cursive;
+    color: #f0f6f9;
+}
+
+@import url("stars-3x.css");

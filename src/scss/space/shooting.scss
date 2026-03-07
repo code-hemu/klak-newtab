@@ -1,0 +1,52 @@
+.space .stars:nth-child(1) {
+    position: absolute;
+    background: linear-gradient(to right, var(--star-color) 0%, transparent 100%);
+    width: 100px;
+    height: 10px;
+    border-radius: 200px;
+    right: 20%;
+    top: 30%;
+    -webkit-animation: shooting-star 9s infinite;
+    animation: shooting-star 9s infinite;
+}
+
+.space .stars:nth-child(2) {
+    position: absolute;
+    background: linear-gradient(to right, var(--star-color) 0%, transparent 100%);
+    width: 100px;
+    height: 10px;
+    border-radius: 200px;
+    right: 18%;
+    top: 20%;
+    -webkit-animation: shooting-star 8s infinite;
+    animation: shooting-star 10s infinite; 
+}
+
+.space .stars:nth-child(3) {
+    position: absolute;
+    background: linear-gradient(to right, var(--star-color) 0%, transparent 100%);
+    width: 100px;
+    height: 10px;
+    border-radius: 200px;
+    right: 15%;
+    top: 15%;
+    -webkit-animation: shooting-star 8s infinite;
+    animation: shooting-star 8s infinite;  
+}
+
+
+@keyframes shooting-star {
+    0% {
+        transform: translate(0, 0) rotate(-30deg) scale(0.8);
+        opacity: 1;
+    }
+
+    25% {
+        transform: translate(-50px, 50px) rotate(-30deg) scale(0.8);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(0, 0) rotate(-30deg) scale(0.8);
+        opacity: 0;
+    }
+}
