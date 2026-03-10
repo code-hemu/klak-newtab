@@ -1,1 +1,5 @@
 
+[submodule "workspace"]
+	path = workspace
+	url = https://github.com/code-hemu/extensions-workspace.git
+	branch = main
