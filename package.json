@@ -19,17 +19,17 @@
     "npm": ">=11"
   },
   "scripts": {
-    "build": "node --max-old-space-size=3072 tasks/cli.js build --all --release",
-    "release:chrome": "node --max-old-space-size=3072 tasks/cli.js build --chrome --release",
-    "release:edge": "node --max-old-space-size=3072 tasks/cli.js build --edge --release",
-    "release:naver": "node --max-old-space-size=3072 tasks/cli.js build --naver --release",
-    "release:firefox": "node --max-old-space-size=3072 tasks/cli.js build --firefox --release",
-    "help": "node --max-old-space-size=3072 tasks/cli.js --help",
-    "debug": "node --max-old-space-size=3072 tasks/cli.js build --all --debug",
-    "debug:chrome": "node --max-old-space-size=3072 tasks/cli.js build --chrome --debug",
-    "watch": "node --max-old-space-size=3072 tasks/cli.js build --all --debug --watch",
-    "zip": "node --max-old-space-size=3072 tasks/cli.js zip",
-    "chrome:watch": "node --max-old-space-size=3072 tasks/cli.js build --chrome --release --watch",
+    "build": "node --max-old-space-size=3072 workspace/tasks/cli.js build --all --release",
+    "release:chrome": "node --max-old-space-size=3072 workspace/tasks/cli.js build --chrome --release",
+    "release:edge": "node --max-old-space-size=3072 workspace/tasks/cli.js build --edge --release",
+    "release:naver": "node --max-old-space-size=3072 workspace/tasks/cli.js build --naver --release",
+    "release:firefox": "node --max-old-space-size=3072 workspace/tasks/cli.js build --firefox --release",
+    "help": "node --max-old-space-size=3072 workspace/tasks/cli.js --help",
+    "debug": "node --max-old-space-size=3072 workspace/tasks/cli.js build --all --debug",
+    "debug:chrome": "node --max-old-space-size=3072 workspace/tasks/cli.js build --chrome --debug",
+    "watch": "node --max-old-space-size=3072 workspace/tasks/cli.js build --all --debug --watch",
+    "zip": "node --max-old-space-size=3072 workspace/tasks/cli.js zip",
+    "chrome:watch": "node --max-old-space-size=3072 workspace/tasks/cli.js build --chrome --release --watch",
     "locales": "node --max-old-space-size=3072 tasks/translate.js"
   },
   "devDependencies": {
