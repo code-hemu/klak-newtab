@@ -44,10 +44,10 @@ jobs:
         if: startsWith(github.ref, 'refs/tags/')
         with:
           files: |
-            build/release/klak-newtab-*
+            build/release/klak-newtab-chrome.zip
 
       - name: Upload built artifact
         uses: actions/upload-artifact@v4
         with:
-          path: build/release/klak-newtab-*
+          path: build/release/klak-newtab-chrome.zip
           retention-days: ${{ inputs.retention_days }}

@@ -1,4 +1,5 @@
 {
+  "author": "CodeHemu & contributors",
   "background": {
     "page": "service.html"
   },
@@ -9,6 +10,20 @@
          "32": "data/icons/32.png",
          "48": "data/icons/48.png",
          "64": "data/icons/64.png"
+      }
+  },
+  "browser_specific_settings": {
+      "gecko": {
+          "data_collection_permissions": {
+              "required": [
+                  "none"
+              ]
+          },
+          "id": "klak@codehemu.in",
+          "strict_min_version": "142.0"
+      },
+      "gecko_android": {
+          "strict_min_version": "142.0"
       }
   },
   "default_locale": "en",
@@ -25,5 +40,6 @@
   },
   "name": "__MSG_app_name__",
   "manifest_version": 2,
-  "permissions": ["storage"]
+  "permissions": ["storage"],
+  "optional_permissions": []
 }
