@@ -1,6 +1,6 @@
 <h1 align="center">
 <sub>
-<img src="https://github.com/code-hemu/klak-newtab/blob/main/src/assets/icon/128.png?raw=true" height="38" width="38">
+<img src="https://raw.githubusercontent.com/code-hemu/klak-newtab/refs/heads/main/src/assets/icon/128.png" height="38" width="38">
 </sub>
 Klak - New Tab
 </h1> 
